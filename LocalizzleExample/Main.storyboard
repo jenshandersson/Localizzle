@@ -56,7 +56,7 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="localizingKey" value="body"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizingKey" value="body_text"/>
                                 </userDefinedRuntimeAttributes>
                             </textView>
                         </subviews>

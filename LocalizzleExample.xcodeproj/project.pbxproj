@@ -18,7 +18,7 @@
 		B409C9C6185A3E5D00B81BF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409C9C5185A3E5D00B81BF4 /* XCTest.framework */; };
 		B409C9C7185A3E5D00B81BF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409C9A6185A3E5D00B81BF4 /* Foundation.framework */; };
 		B409C9C8185A3E5D00B81BF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B409C9AA185A3E5D00B81BF4 /* UIKit.framework */; };
-		B41923891863A51F00951D11 /* Localizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B41923881863A51F00951D11 /* Localizzle.m */; };
+		B41923991863AE1500951D11 /* Localizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B41923981863AE1500951D11 /* Localizzle.m */; };
 		B44D2E1318639D2A00DFA3EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44D2E1218639D2A00DFA3EA /* Main.storyboard */; };
 		B45D8731185A538F00479944 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B45D8733185A538F00479944 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -49,8 +49,8 @@
 		B409C9BE185A3E5D00B81BF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B409C9C4185A3E5D00B81BF4 /* LocalizzleExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizzleExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B409C9C5185A3E5D00B81BF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B41923871863A51F00951D11 /* Localizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Localizzle.h; sourceTree = "<group>"; };
-		B41923881863A51F00951D11 /* Localizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Localizzle.m; sourceTree = "<group>"; };
+		B41923971863AE1500951D11 /* Localizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Localizzle.h; sourceTree = "<group>"; };
+		B41923981863AE1500951D11 /* Localizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Localizzle.m; sourceTree = "<group>"; };
 		B44D2E1218639D2A00DFA3EA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B45D8734185A53B600479944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B45D8735185A53FA00479944 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 		B409C9AC185A3E5D00B81BF4 /* LocalizzleExample */ = {
 			isa = PBXGroup;
 			children = (
-				B41923861863A51F00951D11 /* Localizzle */,
+				B41923961863AE1500951D11 /* Localizzle */,
 				B409C9B5185A3E5D00B81BF4 /* AppDelegate.h */,
 				B409C9B6185A3E5D00B81BF4 /* AppDelegate.m */,
 				B409C9BB185A3E5D00B81BF4 /* ViewController.h */,
@@ -136,11 +136,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B41923861863A51F00951D11 /* Localizzle */ = {
+		B41923961863AE1500951D11 /* Localizzle */ = {
 			isa = PBXGroup;
 			children = (
-				B41923871863A51F00951D11 /* Localizzle.h */,
-				B41923881863A51F00951D11 /* Localizzle.m */,
+				B41923971863AE1500951D11 /* Localizzle.h */,
+				B41923981863AE1500951D11 /* Localizzle.m */,
 			);
 			path = Localizzle;
 			sourceTree = "<group>";
@@ -243,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41923891863A51F00951D11 /* Localizzle.m in Sources */,
+				B41923991863AE1500951D11 /* Localizzle.m in Sources */,
 				B409C9BD185A3E5D00B81BF4 /* ViewController.m in Sources */,
 				B409C9B7185A3E5D00B81BF4 /* AppDelegate.m in Sources */,
 				B409C9B3185A3E5D00B81BF4 /* main.m in Sources */,

@@ -8,5 +8,5 @@
 
 "project name" = "Localizzle";
 "press" = "Tryck här!";
-"body" = "Detta bibliotek gör att du kan översätta strängar direkt i Interface Builder, utan en enda rad kod!";
+"body_text" = "Detta bibliotek gör att du kan översätta strängar direkt i Interface Builder, utan en enda rad kod!";
 "your email" = "Din email";

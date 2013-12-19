@@ -7,6 +7,9 @@
 */
 
 "project name" = "Localizzle";
+
 "press" = "Press here!";
-"body" = "This library allows you to translate directly from Interface Builder. No extra classes or setup needed. Just add the two files and you can translate in IB by added the localizedKey to UILabel, UITextView, UITextField or UIButton\n\nThanks to method swizzlin'";
+
+"body_text" = "This library allows you to translate directly from Interface Builder. No extra classes or setup needed. Just add the two files and you can translate in IB by added the localizedKey to UILabel, UITextView, UITextField or UIButton\n\nThanks to method swizzlin'";
+
 "your email" = "Your email";
