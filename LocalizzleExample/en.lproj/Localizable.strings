@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Localizzle
+
+  Created by Jens Andersson on 12/12/13.
+  Copyright (c) 2013 Jens Andersson. All rights reserved.
+*/
+
+"project name" = "Localizzle";
+"press" = "Press here!";
+"body" = "This library allows you to translate directly from Interface Builder. No extra classes or setup needed. Just add the two files and you can translate in IB by added the localizedKey to UILabel, UITextView, UITextField or UIButton\n\nThanks to method swizzlin'";
+"your email" = "Your email";

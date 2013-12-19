@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Localizzle
+
+  Created by Jens Andersson on 12/12/13.
+  Copyright (c) 2013 Jens Andersson. All rights reserved.
+*/
+
+"project name" = "Localizzle";
+"press" = "Tryck här!";
+"body" = "Detta bibliotek gör att du kan översätta strängar direkt i Interface Builder, utan en enda rad kod!";
+"your email" = "Din email";
