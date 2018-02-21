@@ -1,7 +1,7 @@
-#Localizzle
+# Localizzle
 
 
-###Localization directly in Interface Builder
+### Localization directly in Interface Builder
 
 Playing around with method swizzling in Objective-C I created something useful, something I've always needed. Specifying localization keys directly in my XIB.
 
@@ -9,7 +9,7 @@ My first solution was creating new subclasses of UILabel, UITextView etc. But th
 
 Using method swizzling I simply do the localization in -awakeFromNib.
 
-###Usage
+### Usage
 
 Simply add Localizzle.h/m to your project. That's it!
 
